@@ -1,3 +1,8 @@
+# 작업중인 상황
+- augmentation으로 데이터 보충
+
+- EDA통한 방향 설정
+
 # voice_competition
 중첩된 4개의 단어를 구분하는 task
 
