@@ -3,6 +3,9 @@
 
 - EDA통한 방향 설정
 
+- feature 형태 어떻게???
+<img src="https://github.com/100jy/voice_competition/blob/master/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C.png">
+
 # voice_competition
 중첩된 4개의 단어를 구분하는 task
 
