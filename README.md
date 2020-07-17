@@ -6,6 +6,13 @@
 - feature 형태 어떻게???
 <img src="https://github.com/100jy/voice_competition/blob/master/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C.png">
 
+- x_trian_MFCC.pickle : sr = 22050, dtype : float32
+
+- x_trian.pickle : sr = 16000, dtype : int32
+
+- x_trian_.pickle : sr = 11025, dtype : float32
+
+
 # voice_competition
 중첩된 4개의 단어를 구분하는 task
 
