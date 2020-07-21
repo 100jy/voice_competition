@@ -1,4 +1,7 @@
 # 작업중인 상황
+
+- n_mfcc = 80 data로 학습해보기.. 
+
 - augmentation으로 데이터 보충
 
 - EDA통한 방향 설정
