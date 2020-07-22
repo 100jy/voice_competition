@@ -27,9 +27,10 @@ def make_data(datalist, feature='signal'):
 
     # MFCC data
     elif feature == 'MFCC':
+        hop_size = int(22050/79)
         for file in tqdm(datalist):
             x, sr = librosa.load(file)
-            mfcc = librosa.feature.mfcc(x, sr=sr, n_mfcc=80, fmax=3000)
+            mfcc = librosa.feature.mfcc(x, sr=sr, n_mfcc=80, fmax=3000,hop_length = hop_size)
             arr.append(mfcc.flatten())
 
     else:
