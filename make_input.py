@@ -44,3 +44,8 @@ if __name__ == '__main__':
     raw_data = glob('./train/*.wav')
     mfcc = make_data(raw_data,feature='MFCC')
     pd.DataFrame(mfcc).to_pickle('./data/x_trian_mfcc_80.pickle')
+    
+    raw_tet = glob('./test/*.wav')
+    mfcc = make_data(raw_tet,feature='MFCC')
+    pd.DataFrame(mfcc).to_pickle('./data/x_test_mfcc_80.pickle')
+    
