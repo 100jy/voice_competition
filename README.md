@@ -1,6 +1,7 @@
 # 작업중인 상황
 
-- augmentation으로 데이터 보충 (+pitch 넣어서 2ch로???)
+- augmentation으로 데이터 보충 (location 이동시켜서 데이터 2배로)
+- 
 
 
 # 데이터
