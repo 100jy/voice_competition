@@ -1,13 +1,9 @@
 # 작업중인 상황
 
-- n_mfcc = 80 data로 학습해보기.. 
+- augmentation으로 데이터 보충 (+pitch 넣어서 2ch로???)
 
-- augmentation으로 데이터 보충
 
-- EDA통한 방향 설정
-
-- feature 형태 어떻게???
-<img src="https://github.com/100jy/voice_competition/blob/master/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C.png">
+# 데이터
 
 - x_trian_MFCC.pickle : (sr = 22050, dtype = float32)
 
@@ -34,8 +30,5 @@ k-l divergence를 목적함수로 적당한가???
 augmentation통해서 성능 향상 할 수 있을 듯..
 
 ## 모델링
-CNN이 가장 효율적일듯...,pre-trained 모델 금지...
-
-커널사이즈, 레이어 수 어떻게 최적화 할 것인지...(유사한 테스크에서 성능 좋았던 구조 이용...)
-
-코렙 프로 결제해서 다양한 모델 테스트...
+- deep CNN
+- batchnormalize
