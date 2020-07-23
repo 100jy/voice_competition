@@ -5,11 +5,13 @@
 
 # 데이터
 
-- x_trian_MFCC.pickle : (sr = 22050, dtype = float32)
+- x_trian_MFCC.pickle : (sr = 22050, dtype = float32, shape = 10^5 x 40 x 44)
 
-- x_trian.pickle : (sr = 16000, dtype = int32)
+- x_trian.pickle : (sr = 16000, dtype = int32, shape = 10^5 x 16000)
 
-- x_trian_sr_11025.pickle : (sr = 11025, dtype = float32)
+- x_trian_sr_11025.pickle : (sr = 11025, dtype = float32, shape = 10^5 x 11025)
+
+- x_trian_mfcc_80.pickle : (sr = 22050, dtype = float32, shape = 10^5 x 80 x 80)
 
 
 # voice_competition
