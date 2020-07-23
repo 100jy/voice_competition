@@ -30,5 +30,7 @@ k-l divergence를 목적함수로 적당한가???
 augmentation통해서 성능 향상 할 수 있을 듯..
 
 ## 모델링
-- deep CNN
-- batchnormalize
+효과 좋았던 것들...
+- deep CNN : 필터개수 늘리고, 풀링 수 줄임..
+- batchnormalize : 레이어 마다 배치 정규화하여 학습의 안정성 높임
+- GELU : RELU의 smoother버젼, 모델 정확도 상승...
