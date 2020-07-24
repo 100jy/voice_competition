@@ -1,7 +1,9 @@
 # 작업중인 상황
 
-- augmentation으로 데이터 보충 (location 이동시켜서 데이터 2배로)
-- 
+- augmentation으로 데이터 보충 (노이즈 추가 해보기)
+- inception-resnet 써보기
+- High resolution spectrogram
+- feature spectogram으로 바꿔보기..
 
 
 # 데이터
