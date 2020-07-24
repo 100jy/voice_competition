@@ -4,6 +4,7 @@
 - inception-resnet 써보기
 - High resolution spectrogram
 - feature spectogram으로 바꿔보기..
+- 1D conv와 ensemble
 
 
 # 데이터
