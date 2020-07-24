@@ -1,10 +1,9 @@
 # 작업중인 상황
 
-- augmentation으로 데이터 보충 (노이즈 추가 해보기) -> 피치 바꾸거나 shift는 오히려 안좋았음....
+- augmentation으로 데이터 보충 (heavy noise 추가 해보기, 다른 건 별로...)
 - inception-resnet 써보기
-- High resolution spectrogram
-- feature spectogram으로 바꿔보기..
-- 1D conv와 ensemble
+- feature spectogram으로 바꿔보기..(128x128 mel-spectogram 사용,sr = 16k로..)
+- 1D conv와 ensemble(raw_wav_16k_float32)
 
 
 # 데이터
