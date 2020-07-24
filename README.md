@@ -37,3 +37,4 @@ augmentation통해서 성능 향상 할 수 있을 듯..
 - deep CNN : 필터개수 늘리고, 풀링 수 줄임..
 - batchnormalize : 레이어 마다 배치 정규화하여 학습의 안정성 높임
 - GELU : RELU의 smoother버젼, 모델 정확도 상승...
+- inception net : CNN을 wide하게 한 레이어에서 다양한 필터 적용시키는 방법, 수렴속도 좋음, 정확도 상승
