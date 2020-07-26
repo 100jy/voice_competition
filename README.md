@@ -1,3 +1,7 @@
+# 참고
+
+https://sike6054.github.io/blog/paper/fourth-post/
+
 # 작업중인 상황
 
 - augmentation으로 데이터 보충 (heavy noise 추가 해보기, 다른 건 별로...)
