@@ -4,11 +4,10 @@ https://sike6054.github.io/blog/paper/fourth-post/
 
 # 작업중인 상황
 
-- augmentation으로 데이터 보충 (heavy noise 추가 해보기, 다른 건 별로...)
-- inception-resnet 써보기
-- feature spectogram으로 바꿔보기..(128x128 mel-spectogram 사용,sr = 16k로..)
-- 1D conv와 ensemble(raw_wav_16k_float32)
-
+- 1D conv와 ensemble(raw_wav_11k_float32)
+- inception model capacity 조금씩 늘려보기
+- 모델 3개 ensemble 해보기
+- LSTM 
 
 # 데이터
 
