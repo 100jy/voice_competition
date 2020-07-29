@@ -7,7 +7,8 @@ https://sike6054.github.io/blog/paper/fourth-post/
 - 1D conv와 ensemble(raw_wav_11k_float32)
 - inception model capacity 조금씩 늘려보기
 - 모델 3개 ensemble 해보기
-- LSTM 
+- more augmentation
+- VAD 이후 resizing
 
 # 데이터
 
